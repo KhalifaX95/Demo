@@ -29,6 +29,8 @@ class HomeViewController: UIViewController {
             layout.minimumInteritemSpacing = 0
         }
         homeCollectionView.isPagingEnabled = true
+        
+        
         homeCollectionView.showsHorizontalScrollIndicator = false
     }
     
